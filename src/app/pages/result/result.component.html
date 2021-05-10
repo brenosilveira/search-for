@@ -1,0 +1,15 @@
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <p class="info">Resultado da busca</p>
+        <app-collapse [target]="finalResult.id">
+          <ng-container collapse-title>
+            {{ finalResult.title }}
+          </ng-container>
+          <p collapse-content [innerHTML]="finalResult.content"></p>
+        </app-collapse>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+.row {
+  height: 400px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+
+  @media screen and (max-width: 425px) {
+    width: 250px;
+    height: 100px;
+  }
+}
+
+p {
+  padding-top: 30px;
+  font-weight: bold;
+  color: #020101;
+}

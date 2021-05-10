@@ -1,0 +1,16 @@
+section {
+  background-color: #C191A1;
+
+  .logo {
+    img {
+      width: 289px;
+      height: 116px;
+      padding-top: 30px;
+
+      @media screen and (max-width: 425px) {
+        width: 250px;
+        height: 100px;
+      }
+    }
+  }
+}

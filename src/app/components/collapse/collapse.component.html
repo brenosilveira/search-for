@@ -1,0 +1,38 @@
+<button class="header-btn collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="target" role="button" aria-expanded="false" aria-controls="collapse">
+  <h5>
+    <ng-content select="[collapse-title]"></ng-content>
+  </h5>
+  <button class="icon-collapse">
+    <img src="assets/icons/seta-para-baixo-w.png" alt="Icone de seta">
+  </button>
+</button>
+
+<div [class]="'collapse ' + customClass" [id]="isId(target) ? target.replace('#', '') : ''">
+  <div class="content">
+    <ng-content select="[collapse-content]"></ng-content>
+    <button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Ver mais
+    </button>
+  </div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <p>Tem certeza que deseja ir para a tela?</p>
+      </div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <button type="button" class="btn-modal-confirm" data-bs-dismiss="modal">Sim</button>
+        </div>
+        <div class="col-6 text-center">
+          <button type="button" class="btn-modal-confirm" data-bs-dismiss="modal">Não</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

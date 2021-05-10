@@ -1,0 +1,95 @@
+:host {
+  display: block;
+  margin-bottom: 16px;
+  padding: 24px 32px;
+  border-radius: 16px;
+  background-color: #c191a1;
+  box-shadow: 4px 4px 16px -8px #000000;
+
+  .header-btn {
+    display: flex;
+    border: none;
+    padding: 0;
+    width: 100%;
+    color: #ffffff;
+    align-items: flex-start;
+    justify-content: space-between;
+    appearance: none;
+    box-shadow: none;
+    background-color: transparent;
+
+    &:focus {
+      outline: none;
+    }
+
+    h5 {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 700;
+      text-align: left;
+      line-height: 1.5rem;
+      color: inherit;
+      transition: all ease-in-out 0.3s;
+    }
+  }
+
+  .icon-collapse {
+    img {
+      color: #ffffff;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .content {
+    padding-top: 24px;
+    color: #000000;
+  }
+
+  .icon-collapse {
+    appearance: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .header-btn:not(.collapsed) {
+    button {
+      transform: rotateX(180deg);
+    }
+  }
+
+  .btn-modal {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 0;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: none;
+    box-shadow: none;
+    background-color: #000000;
+  }
+
+  .modal {
+    min-height: 900px;
+
+    .modal-content {
+      p {
+        font-weight: 500;
+      }
+    }
+
+    .btn-modal-confirm {
+      padding-bottom: 20px;
+      border: none;
+      font-weight: 700;
+      color: #c191a1;
+      appearance: none;
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+}
