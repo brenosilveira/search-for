@@ -1,27 +1,25 @@
-# DesafioTotvs
+# :mag_right: Search For
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+![image](https://user-images.githubusercontent.com/47336657/117664105-c76d8480-b177-11eb-9e02-b60b8e92cb85.png)
+
+
+## :page_with_curl: O Projeto
+Aplicação realizada com objetivo de fazer uma busca por uma informação em específico.
+
+- Google
+- Yahoo
+- Totvs
+
+## :computer: Tecnologias
+A aplicação foi desenvolvida com: 
+- Angular | [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+- HTML5
+- Sass
+- TypeScript
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :grinning: Quer contribuir?
+Será uma honra! Fique a vontade para fazer um fork com suas modificações e mandar sua solicitação. Vou curtir demais esse compartilhamento de conhecimento :v:
