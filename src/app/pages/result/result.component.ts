@@ -19,11 +19,13 @@ export class ResultComponent implements OnInit {
   constructor(public activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.resultCompare = this.activatedRoute.snapshot.params.id
-    this.results.map((res) => {
-      if(this.resultCompare === res.id) {
-        this.finalResult = res
-      }
+    this.activatedRoute.params.subscribe((res: any) => {
+      this.resultCompare = res.id
+      this.results.map((res) => {
+        if(this.resultCompare === res.id) {
+          this.finalResult = res
+        }
+      })
     })
   }
 }
